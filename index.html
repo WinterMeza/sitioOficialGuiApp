@@ -15,7 +15,7 @@
 <body>
     <header>
         <div class="container">
-            <img src="img/icon1.jpg" alt="Icono de GuiApp">
+            <img src="img/inicio.jpg" alt="Imagen de inicio">
             <div class="header-text">
                 <h1>GuiApp</h1>
                 <p>Tu compañero de movilidad</p>
@@ -28,8 +28,9 @@
             <div class="container">
                 <h2>Descarga la aplicación</h2>
                 <p>GuiApp es tu compañero de movilidad diseñado para mejorar la independencia y autonomía de personas con discapacidad visual en entornos interiores. Descárgala ahora y experimenta la libertad de movilidad.</p>
-                <a href="apk/GuiApp.apk" class="download-button" id="downloadButton" download>Descargar</a>
-            </div>
+                <a href="apk/GuiApp.apk" class="download-button" id="downloadButton" onclick="showDownloadMessage()">Descargar</a>
+
+            </div> 
         </section>
 
         <section class="intro-section">
@@ -60,9 +61,11 @@
                 </ul>
             </div>
         </section>
+    </main>
 
-        <section class="contact-section">
-            <div class="container">
+    <footer>
+        <div class="container">
+            <div class="contact-section">
                 <h2>Contacto y Soporte</h2>
                 <p>Estamos aquí para ayudarte. Si tienes preguntas o necesitas asistencia, contáctanos:</p>
                 <ul>
@@ -70,11 +73,6 @@
                     <li>Teléfono: +123 456 7890</li>
                 </ul>
             </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
             <p>&copy; 2023 GuiApp. Todos los derechos reservados.</p>
         </div>
     </footer>

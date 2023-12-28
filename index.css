@@ -34,56 +34,23 @@ main {
     text-align: center;
 }
 
-.intro-section {
-    background-color: #ecf0f1; /* Fondo celeste claro */
-    padding: 20px;
-    text-align: center;
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2ecc71; /* Cambiado a verde (#2ecc71) */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.preview-section {
-    background-color: #ffffff;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
+.download-button:hover {
+    background-color: #27ae60; /* Cambiado el color de hover a un tono más oscuro de verde (#27ae60) */
 }
 
-.features-section {
-    background-color: #ecf0f1; /* Fondo celeste claro */
-    padding: 20px;
-    text-align: center;
-}
+/* Otras reglas de estilo... */
 
-.features-section h2 {
-    color: #3498db; /* Azul más oscuro */
-}
-
-.features-section ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.features-section li {
-    margin-bottom: 10px;
-}
-
-.contact-section {
-    margin-bottom: 20px;
-}
-
-.contact-section h2 {
-    color: #3498db; /* Azul más oscuro */
-}
-
-.contact-section ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.contact-section li {
-    margin-bottom: 10px;
-}
-
-.footer {
+footer {
     background-color: #3498db;
     color: #ffffff;
     text-align: center;
@@ -104,18 +71,4 @@ main {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-}
-
-.download-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #3498db;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.download-button:hover {
-    background-color: #2980b9; /* Cambio de color al pasar el ratón */
 }
