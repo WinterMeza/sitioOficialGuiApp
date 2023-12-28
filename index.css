@@ -3,12 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ecf0f1; /* Celeste */
-    color: #ffffff; /* Blanco */
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
+    color: #34495e; /* Azul oscuro para mayor legibilidad */
 }
 
 header {
@@ -18,44 +13,109 @@ header {
     padding: 20px 0;
 }
 
+header img {
+    width: 50px; /* Reduje el tamaño del icono */
+    height: auto;
+    margin-right: 20px;
+}
+
 header h1 {
     margin: 0;
 }
 
 main {
-    padding: 20px 0;
+    padding: 20px;
 }
 
-.promo-section,
-.image-section {
+.promo-section {
     background-color: #ffffff;
     border-radius: 10px;
     padding: 20px;
+    text-align: center;
+}
+
+.intro-section {
+    background-color: #ecf0f1; /* Fondo celeste claro */
+    padding: 20px;
+    text-align: center;
+}
+
+.preview-section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.features-section {
+    background-color: #ecf0f1; /* Fondo celeste claro */
+    padding: 20px;
+    text-align: center;
+}
+
+.features-section h2 {
+    color: #3498db; /* Azul más oscuro */
+}
+
+.features-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features-section li {
+    margin-bottom: 10px;
+}
+
+.contact-section {
     margin-bottom: 20px;
 }
 
-.image-section img {
-    width: 100%;
-    height: auto;
+.contact-section h2 {
+    color: #3498db; /* Azul más oscuro */
 }
 
-footer {
+.contact-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-section li {
+    margin-bottom: 10px;
+}
+
+.footer {
     background-color: #3498db;
     color: #ffffff;
     text-align: center;
     padding: 10px 0;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.slider {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.slider img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
 .download-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #2ecc71; /* Verde */
+    background-color: #3498db;
     color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
-    font-weight: bold;
+    cursor: pointer;
 }
 
 .download-button:hover {
-    background-color: #27ae60; /* Verde más oscuro */
+    background-color: #2980b9; /* Cambio de color al pasar el ratón */
 }

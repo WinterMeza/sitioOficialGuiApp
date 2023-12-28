@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10">
+    <link rel="icon" href="img/icon1.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="index.css">
     <title>GuiApp - Tu compañero de movilidad</title>
 </head>
@@ -12,8 +15,11 @@
 <body>
     <header>
         <div class="container">
-            <h1>GuiApp</h1>
-            <p>Tu compañero de movilidad</p>
+            <img src="img/icon1.jpg" alt="Icono de GuiApp">
+            <div class="header-text">
+                <h1>GuiApp</h1>
+                <p>Tu compañero de movilidad</p>
+            </div>
         </div>
     </header>
 
@@ -21,14 +27,48 @@
         <section class="promo-section">
             <div class="container">
                 <h2>Descarga la aplicación</h2>
-                <p>GuiApp te ayuda a desplazarte de manera independiente en espacios interiores. ¡Descárgala ahora y experimenta la libertad de movilidad!</p>
+                <p>GuiApp es tu compañero de movilidad diseñado para mejorar la independencia y autonomía de personas con discapacidad visual en entornos interiores. Descárgala ahora y experimenta la libertad de movilidad.</p>
                 <a href="apk/GuiApp.apk" class="download-button" id="downloadButton" download>Descargar</a>
             </div>
         </section>
 
-        <section class="image-section">
+        <section class="intro-section">
             <div class="container">
-                <img src="img/inicio.jpg" alt="Imagen de inicio">
+                <h2>Introducción a GuiApp</h2>
+                <p>GuiApp es una aplicación móvil innovadora diseñada para brindar independencia y autonomía a personas con discapacidad visual en entornos interiores. Desarrollada con el objetivo de mejorar la movilidad y la calidad de vida, GuiApp utiliza tecnología avanzada para proporcionar una experiencia de navegación intuitiva y segura.</p>
+            </div>
+        </section>
+
+        <section class="preview-section">
+            <div class="container">
+                <div class="slider">
+                    <div><img src="img/funcion1.jpg" alt="Funcionamiento 1"></div>
+                    <div><img src="img/funcion2.jpg" alt="Funcionamiento 2"></div>
+                    <div><img src="img/funcion3.jpg" alt="Funcionamiento 3"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section">
+            <div class="container">
+                <h2>Funciones Principales</h2>
+                <ul>
+                    <li>Escaneo de Direcciones MAC Bluetooth: Obtén información crucial para la navegación.</li>
+                    <li>Descripción y Almacenamiento de Direcciones MAC: Organiza y describe ubicaciones para una identificación fácil.</li>
+                    <li>Síntesis de Voz para Información Bluetooth: Recibe información vital de manera audible y oportuna.</li>
+                    <li>Ejecución en Segundo Plano: Supervisa constantemente y responde rápidamente a cambios en el entorno.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <h2>Contacto y Soporte</h2>
+                <p>Estamos aquí para ayudarte. Si tienes preguntas o necesitas asistencia, contáctanos:</p>
+                <ul>
+                    <li>Email: info@guiapp.com</li>
+                    <li>Teléfono: +123 456 7890</li>
+                </ul>
             </div>
         </section>
     </main>
@@ -39,7 +79,9 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="index.js"></script>
 </body>
 
