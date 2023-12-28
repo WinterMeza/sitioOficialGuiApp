@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f1; /* Celeste */
+    color: #ffffff; /* Blanco */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #3498db; /* Celeste más oscuro */
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.promo-section,
+.image-section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #3498db;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2ecc71; /* Verde */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.download-button:hover {
+    background-color: #27ae60; /* Verde más oscuro */
+}
