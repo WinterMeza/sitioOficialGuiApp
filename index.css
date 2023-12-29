@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ecf0f1; /* Celeste */
-    color: #34495e; /* Azul oscuro para mayor legibilidad */
+    color: #ffffff; /* Blanco */
 }
 
 header {
@@ -11,16 +11,24 @@ header {
     color: #ffffff;
     text-align: center;
     padding: 20px 0;
+    display: flex;
+    align-items: center;
 }
 
 header img {
-    width: 50px; /* Reduje el tamaño del icono */
+    width: 100px; /* Ajusta el tamaño según sea necesario */
     height: auto;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 header h1 {
     margin: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 main {
@@ -34,21 +42,36 @@ main {
     text-align: center;
 }
 
-.download-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #06d85d; /* Cambiado a verde (#2ecc71) */
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
-    cursor: pointer;
+.intro-section {
+    background-color: #ecf0f1;
+    padding: 20px;
 }
 
-.download-button:hover {
-    background-color: #27ae60; /* Cambiado el color de hover a un tono más oscuro de verde (#27ae60) */
+.intro-section h2,
+.features-section h2 {
+    color: #3498db; /* Celeste más oscuro */
 }
 
-/* Otras reglas de estilo... */
+.intro-section p,
+.features-section ul {
+    color: #000000; /* Negro */
+}
+
+.preview-section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.slider img {
+    max-height: 10cm; /* Ajusta el tamaño según sea necesario */
+    width: auto;
+}
+
+.features-section {
+    background-color: #ecf0f1;
+    padding: 20px;
+}
 
 footer {
     background-color: #3498db;
@@ -57,18 +80,45 @@ footer {
     padding: 10px 0;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+.contact-section {
+    padding-bottom: 20px;
 }
 
-.slider {
-    width: 80%;
-    margin: 0 auto;
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2ecc71; /* Verde */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
-.slider img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+.download-button:hover {
+    background-color: #27ae60; /* Verde más oscuro al pasar el ratón */
 }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    header img {
+        width: 60px; /* Ajusta el tamaño para dispositivos móviles */
+        margin-right: 5px;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    .download-button {
+        font-size: 0.8em;
+    }
+}
+
